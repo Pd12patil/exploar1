@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr); 
+            gap: 10px; 
+            background-color: #f0f0f0;
+            padding: 20px; 
+        }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .header {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .label {
+    font-size: 14px;
+    color: #666;
+  } 
+
+  /* .header,.label {
+    margin-left: 30px;
+  } */
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+            <h3 class="item header">Job Assistance</h3>
+            <h3 class="item label">Program</h3>
+        </div>
+
+        <div class="header">
+            <h3 class="item header">20th Aug 2024</h3>
+            <h3 class="item label">Date of Commencement</h3>
+        </div>
+
+        <div class="header">
+            <h3 class="item header">6 Months</h3>
+            <h3 class="item label">Duration</h3>
+        </div>
+
+        <div class="header">
+            <h3 class="item header">Live + Recorded</h3>
+            <h3 class="item label">Delivery Mode</h3>
+        </div>
+
+        <div class="header">
+            <h3 class="item header">English / Hindi</h3>
+            <h3 class="item label">Language</h3>
+        </div>
+        
+    </div>
+</body>
+</html>
