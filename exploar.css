@@ -1,6 +1,7 @@
 
  body {
     font-family: Arial, sans-serif;
+    /* background-image: linear-gradient(to right, rgb(224, 226, 241), rgb(227, 235, 238)); */
     background-image: linear-gradient(to right, rgb(224, 226, 241), rgb(227, 235, 238));
     margin: 0;
     padding: 0;
@@ -31,8 +32,6 @@
  .med {
    height: 350px;
    width: 550px;
-   
-
  }
 
  .ex {
@@ -271,10 +270,10 @@ margin-left: 30px;
    .med {
     height: 430px;
     width: 550px;
-    
- 
   }
 
+
+  
 
   
 }
