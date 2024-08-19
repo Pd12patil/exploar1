@@ -278,7 +278,11 @@ margin-left: 30px;
     margin: -30px 0 10px 4%;
  }
 
-
+ .ex {
+  border-radius: 15px;
+  margin-left: 2px;
+  margin-right: 2px;
+ }
   
 
   
