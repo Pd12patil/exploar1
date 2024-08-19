@@ -1,33 +1,15 @@
 
  body {
     font-family: Arial, sans-serif;
-    /* background-image: linear-gradient(to right, rgb(224, 226, 241), rgb(227, 235, 238)); */
-    /* background-image: linear-gradient(to right, rgb(224, 226, 241), rgb(227, 235, 238)); */
-    margin: 0;
+     margin: 0;
     padding: 0;
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
-    /* height: 100vh;  */
  }
 
  .exploar {
-    /* margin: 20px;
-    height: auto; */
-    /* width: auto; */
-     /* max-width: 800px; */
-    /*background-image: linear-gradient(to right, rgb(201, 207, 248), rgb(200, 230, 240));
-    border: 1px solid rgb(176, 185, 237);
-    border-radius: 15px;
-    padding: 20px;
-    box-sizing: border-box; */
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
     background-image: linear-gradient(to right, rgb(224, 226, 241), rgb(227, 235, 238)); 
-    /* height: 350px; */
-    /* justify-content: space-between; */
-    /* justify-content: center; */
  }
 
  .med {
@@ -46,17 +28,14 @@
 }
 
  .heading {
-    /* margin-left: 4%; */
     margin: 40px 0 10px 4%;
  }
 
  .para {
-    /* margin-left: 4%; */
     margin: 0 0 10px 4%;
  }
 
  .price {
-    /* margin-left: 4%; */
     margin: 0 0 10px 4%;
     font-size: 30px;
     color: rgb(6, 40, 57);
@@ -64,15 +43,12 @@
 
  .text {
     font-size: 0.8em;
-    /* margin-top: 1%; */
     color: rgb(27, 12, 199);
  }
 
  .btn {
     width: 180px;
     height: 45px;
-    /* background: #162938; */
-    /* margin-left: 4%; */
     margin: 10px 4%;
     background-image: linear-gradient(to right, rgb(9, 20, 87), rgb(25, 176, 220));
     border: none;
@@ -98,7 +74,6 @@
 
   .con{
     height: auto;
-    /* width: auto; */
     max-width: 800px;
     padding: 20px;
     background-color: rgb(232, 235, 237);
@@ -160,12 +135,8 @@ font-size: 14px;
 color: #666;
 } 
 
-/* .header,.label {
-margin-left: 30px;
-} */
 
   .heading1 {
-    /* margin: 4% 0 10px 4%; */
     text-align: center;
   }
 
@@ -179,13 +150,10 @@ margin-left: 30px;
     display: flex;
      flex-wrap: wrap;
     justify-content: center;
-    /* justify-content: space-between; */
-    /* text-align: center; */
   }
 
   .other {
     margin: 2% 0 10px 4%;
-    /* margin: 20px 12px; */
     background-image: linear-gradient(to right, rgb(224, 226, 241), rgb(227, 235, 238));
     width: 200px;
     padding: 10px 14px;
@@ -199,8 +167,6 @@ margin-left: 30px;
     width: 100px;
     display: block;
     margin: 10px auto;
-    /* border-radius: 20px; */
-
   }
 
   .text {
