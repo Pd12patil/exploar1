@@ -2,7 +2,7 @@
  body {
     font-family: Arial, sans-serif;
     /* background-image: linear-gradient(to right, rgb(224, 226, 241), rgb(227, 235, 238)); */
-    background-image: linear-gradient(to right, rgb(224, 226, 241), rgb(227, 235, 238));
+    /* background-image: linear-gradient(to right, rgb(224, 226, 241), rgb(227, 235, 238)); */
     margin: 0;
     padding: 0;
     /* display: flex; */
@@ -24,6 +24,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
+    background-image: linear-gradient(to right, rgb(224, 226, 241), rgb(227, 235, 238)); 
     /* height: 350px; */
     /* justify-content: space-between; */
     /* justify-content: center; */
@@ -46,7 +47,7 @@
 
  .heading {
     /* margin-left: 4%; */
-    margin: 0 0 10px 4%;
+    margin: 40px 0 10px 4%;
  }
 
  .para {
@@ -268,9 +269,14 @@ margin-left: 30px;
    }
 
    .med {
-    height: 430px;
+    height: 350px;
     width: 550px;
   }
+
+  .heading {
+    /* margin-left: 4%; */
+    margin: -30px 0 10px 4%;
+ }
 
 
   
