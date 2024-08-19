@@ -279,9 +279,10 @@ margin-left: 30px;
  }
 
  .ex {
-  border-radius: 15px;
+  border-radius: 14px;
   margin-left: 2px;
-  margin-right: 2px;
+  /* margin-right: 2px; */
+
  }
   
 
